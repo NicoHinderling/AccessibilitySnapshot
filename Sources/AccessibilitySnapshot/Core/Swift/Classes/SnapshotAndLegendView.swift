@@ -36,7 +36,7 @@ public class SnapshotAndLegendView: UIView {
 
     internal let snapshotView: UIImageView = .init()
 
-    internal var isPreview: Bool = false
+    public var isPreview: Bool = false
 
     internal var legendViews: [UIView] {
         // This is intended to be overridden and implemented by subclasses.
